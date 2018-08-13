@@ -1,0 +1,35 @@
+Fui na minha "coaching" de profissão...
+
+Ela falou que estou fazendo tudo errado.
+E preciso colocar 3 itens que eu gosto por dia, sem repetir, na semana.
+
+E depois refazer tudo de novo na nova semana.
+
+Como seria a lógica disso?
+
+.
+.
+.
+.
+
+Escolher os 3 itens no dia 1. Depois escolher mais 3 itens no dia 2, vendo se esses 3 já foram no dia anterior. Repertir isso por 7 dias.
+
+Passou os 7 dias, a lista pode ser a mesma ou não.
+
+qtde dias = 1;
+var LISTA;
+ENQUANTO qtde dias < 7 {
+    Escolha 3 itens e escreva na lista a cada 24h.
+    Revalide cada item para cada dia.
+    SE estiver na lista {
+        Não colocar
+    } SE NÃO {
+        Colocar +1
+    }
+    Após 24h, adicionar +1 em qtde dias;
+}   
+RETORNAR 21 itens;
+SE qtde dias => 7 {
+    Salvar lista;
+    Começar nova lista;
+}
